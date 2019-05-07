@@ -32,3 +32,10 @@ management:
     web:
       exposure:
         include: refresh
+spring:
+  ......
+  rabbitmq:
+    host: 192.168.163.139
+    port: 22
+    username: admin
+    password: admin
